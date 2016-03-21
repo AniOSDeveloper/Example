@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let newbox = UIView()
+    var newbox = UIView()
     
     
     override func viewDidLoad() {
@@ -20,8 +20,15 @@ class ViewController: UIViewController {
         newbox.backgroundColor = UIColor.greenColor()
         self.view.addSubview(newbox)
         
+//        newbox.snp_makeConstraints { (make) -> Void in
+//            make.edges.equalTo(self.view).inset(UIEdgeInsetsMake(20, 20, 20, 20))
+//        }
+        
+        // Either the code above or below have the same issue: Value of type 'UIView' has no member 'snp_makeConstraints'
+        
         newbox.snp_makeConstraints { (make) -> Void in
-            make.edges.equalTo(self.view).inset(UIEdgeInsetsMake(20, 20, 20, 20))
+            make.width.height.equalTo(50)
+            make.center.equalTo(self.view)
         }
         
     }
