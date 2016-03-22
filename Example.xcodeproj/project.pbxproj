@@ -14,7 +14,19 @@
 		FF1360891C9D9D3700B270C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1360871C9D9D3700B270C2 /* LaunchScreen.storyboard */; };
 		FF1360941C9D9D3700B270C2 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1360931C9D9D3700B270C2 /* ExampleTests.swift */; };
 		FF13609F1C9D9D3700B270C2 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13609E1C9D9D3700B270C2 /* ExampleUITests.swift */; };
-		FF1360AD1C9D9DB300B270C2 /* sources in Resources */ = {isa = PBXBuildFile; fileRef = FF1360AC1C9D9DB300B270C2 /* sources */; };
+		FF4697C41CA0E13D0066FD92 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697B61CA0E13D0066FD92 /* Constraint.swift */; };
+		FF4697C51CA0E13D0066FD92 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697B71CA0E13D0066FD92 /* ConstraintAttributes.swift */; };
+		FF4697C61CA0E13D0066FD92 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697B81CA0E13D0066FD92 /* ConstraintDescription.swift */; };
+		FF4697C71CA0E13D0066FD92 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697B91CA0E13D0066FD92 /* ConstraintItem.swift */; };
+		FF4697C81CA0E13D0066FD92 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697BA1CA0E13D0066FD92 /* ConstraintMaker.swift */; };
+		FF4697C91CA0E13D0066FD92 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697BB1CA0E13D0066FD92 /* ConstraintRelation.swift */; };
+		FF4697CA1CA0E13D0066FD92 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697BC1CA0E13D0066FD92 /* Debugging.swift */; };
+		FF4697CB1CA0E13D0066FD92 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697BD1CA0E13D0066FD92 /* EdgeInsets.swift */; };
+		FF4697CC1CA0E13D0066FD92 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF4697BE1CA0E13D0066FD92 /* Info.plist */; };
+		FF4697CD1CA0E13D0066FD92 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697BF1CA0E13D0066FD92 /* LayoutConstraint.swift */; };
+		FF4697CE1CA0E13D0066FD92 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697C11CA0E13D0066FD92 /* SnapKit.swift */; };
+		FF4697CF1CA0E13D0066FD92 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697C21CA0E13D0066FD92 /* View+SnapKit.swift */; };
+		FF4697D01CA0E13D0066FD92 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4697C31CA0E13D0066FD92 /* ViewController+SnapKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +60,20 @@
 		FF13609A1C9D9D3700B270C2 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF13609E1C9D9D3700B270C2 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		FF1360A01C9D9D3700B270C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF1360AC1C9D9DB300B270C2 /* sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sources; sourceTree = "<group>"; };
+		FF4697B61CA0E13D0066FD92 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = sources/Constraint.swift; sourceTree = "<group>"; };
+		FF4697B71CA0E13D0066FD92 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		FF4697B81CA0E13D0066FD92 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = sources/ConstraintDescription.swift; sourceTree = "<group>"; };
+		FF4697B91CA0E13D0066FD92 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = sources/ConstraintItem.swift; sourceTree = "<group>"; };
+		FF4697BA1CA0E13D0066FD92 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = sources/ConstraintMaker.swift; sourceTree = "<group>"; };
+		FF4697BB1CA0E13D0066FD92 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = sources/ConstraintRelation.swift; sourceTree = "<group>"; };
+		FF4697BC1CA0E13D0066FD92 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = sources/Debugging.swift; sourceTree = "<group>"; };
+		FF4697BD1CA0E13D0066FD92 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = sources/EdgeInsets.swift; sourceTree = "<group>"; };
+		FF4697BE1CA0E13D0066FD92 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sources/Info.plist; sourceTree = "<group>"; };
+		FF4697BF1CA0E13D0066FD92 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = sources/LayoutConstraint.swift; sourceTree = "<group>"; };
+		FF4697C01CA0E13D0066FD92 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnapKit.h; path = sources/SnapKit.h; sourceTree = "<group>"; };
+		FF4697C11CA0E13D0066FD92 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = sources/SnapKit.swift; sourceTree = "<group>"; };
+		FF4697C21CA0E13D0066FD92 /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "sources/View+SnapKit.swift"; sourceTree = "<group>"; };
+		FF4697C31CA0E13D0066FD92 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "sources/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +128,7 @@
 				FF1360801C9D9D3700B270C2 /* ViewController.swift */,
 				FF1360821C9D9D3700B270C2 /* Main.storyboard */,
 				FF1360851C9D9D3700B270C2 /* Assets.xcassets */,
-				FF1360AC1C9D9DB300B270C2 /* sources */,
+				FF4697B51CA0E0F90066FD92 /* SnapKit */,
 				FF1360871C9D9D3700B270C2 /* LaunchScreen.storyboard */,
 				FF13608A1C9D9D3700B270C2 /* Info.plist */,
 			);
@@ -126,6 +151,27 @@
 				FF1360A01C9D9D3700B270C2 /* Info.plist */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		FF4697B51CA0E0F90066FD92 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF4697B61CA0E13D0066FD92 /* Constraint.swift */,
+				FF4697B71CA0E13D0066FD92 /* ConstraintAttributes.swift */,
+				FF4697B81CA0E13D0066FD92 /* ConstraintDescription.swift */,
+				FF4697B91CA0E13D0066FD92 /* ConstraintItem.swift */,
+				FF4697BA1CA0E13D0066FD92 /* ConstraintMaker.swift */,
+				FF4697BB1CA0E13D0066FD92 /* ConstraintRelation.swift */,
+				FF4697BC1CA0E13D0066FD92 /* Debugging.swift */,
+				FF4697BD1CA0E13D0066FD92 /* EdgeInsets.swift */,
+				FF4697BE1CA0E13D0066FD92 /* Info.plist */,
+				FF4697BF1CA0E13D0066FD92 /* LayoutConstraint.swift */,
+				FF4697C01CA0E13D0066FD92 /* SnapKit.h */,
+				FF4697C11CA0E13D0066FD92 /* SnapKit.swift */,
+				FF4697C21CA0E13D0066FD92 /* View+SnapKit.swift */,
+				FF4697C31CA0E13D0066FD92 /* ViewController+SnapKit.swift */,
+			);
+			name = SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +281,7 @@
 				FF1360891C9D9D3700B270C2 /* LaunchScreen.storyboard in Resources */,
 				FF1360861C9D9D3700B270C2 /* Assets.xcassets in Resources */,
 				FF1360841C9D9D3700B270C2 /* Main.storyboard in Resources */,
-				FF1360AD1C9D9DB300B270C2 /* sources in Resources */,
+				FF4697CC1CA0E13D0066FD92 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +306,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4697C41CA0E13D0066FD92 /* Constraint.swift in Sources */,
+				FF4697CD1CA0E13D0066FD92 /* LayoutConstraint.swift in Sources */,
+				FF4697CA1CA0E13D0066FD92 /* Debugging.swift in Sources */,
+				FF4697CB1CA0E13D0066FD92 /* EdgeInsets.swift in Sources */,
+				FF4697C51CA0E13D0066FD92 /* ConstraintAttributes.swift in Sources */,
+				FF4697C81CA0E13D0066FD92 /* ConstraintMaker.swift in Sources */,
 				FF1360811C9D9D3700B270C2 /* ViewController.swift in Sources */,
+				FF4697D01CA0E13D0066FD92 /* ViewController+SnapKit.swift in Sources */,
 				FF13607F1C9D9D3700B270C2 /* AppDelegate.swift in Sources */,
+				FF4697C61CA0E13D0066FD92 /* ConstraintDescription.swift in Sources */,
+				FF4697C91CA0E13D0066FD92 /* ConstraintRelation.swift in Sources */,
+				FF4697CE1CA0E13D0066FD92 /* SnapKit.swift in Sources */,
+				FF4697C71CA0E13D0066FD92 /* ConstraintItem.swift in Sources */,
+				FF4697CF1CA0E13D0066FD92 /* View+SnapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
